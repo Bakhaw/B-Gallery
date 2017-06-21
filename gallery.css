@@ -40,15 +40,15 @@
   list-style-type: none;
   font-size: 16px;
 }
- .menu2 li {
-   margin-left: 1.5em;
- }
+
+.menu2 li {
+  margin-left: 1.5em;
+}
 
 .fa {
   color: white;
   transition: 0.8s;
   transition-duration: 3.3s;
-
 }
 
 .fa-twitter:hover {
@@ -56,7 +56,6 @@
   transition: 0.5s;
   transform: rotateY(360deg);
   transition-duration: 3s;
-
 }
 
 .fa-facebook:hover {
@@ -64,7 +63,6 @@
   transition: 0.5s;
   transform: rotateY(360deg);
   transition-duration: 3s;
-
 }
 
 .fa-youtube:hover {
@@ -72,7 +70,6 @@
   transition: 0.5s;
   transform: rotateY(360deg);
   transition-duration: 3s;
-
 }
 
 .fa-instagram:hover {
@@ -80,8 +77,9 @@
   transition: 0.5s;
   transform: rotateY(360deg);
   transition-duration: 3s;
-
 }
+
+
 /* Dropdown Button */
 
 .dropbtn {
@@ -92,14 +90,6 @@
   border: none;
   cursor: pointer;
   transition: 1s;
-}
-
-
-/* The container <div> - needed to position the dropdown content */
-
-.dropdown {
-  position: relative;
-  display: inline-block;
 }
 
 
@@ -115,30 +105,6 @@
 }
 
 
-/* Links inside the dropdown */
-
-.dropdown-content a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-}
-
-
-/* Change color of dropdown links on hover */
-
-.dropdown-content a:hover {
-  background-color: #f1f1f1;
-}
-
-
-/* Show the dropdown menu on hover */
-
-.dropdown:hover .dropdown-content {
-  display: block;
-}
-
-
 /* Change the background color of the dropdown button when the dropdown content is shown */
 
 .dropdown:hover .dropbtn {
@@ -149,9 +115,33 @@
 #nav {
   margin-top: 3em;
   font-size: 18px;
+  padding: 2em 0;
 }
 
+#nav a:hover {
+  text-decoration: none;
+  font-size: 30px;
+  letter-spacing: 1px;
+}
 
+#interview {
+  display: flex;
+  align-items: center;
+  margin: auto;
+}
+
+#interview img {
+  border-radius: 10px;
+}
+
+#interview-text {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  font-size: 25px;
+  letter-spacing: 0.1em;
+  text-align: center;
+}
 
 .block2 {
   background-image: url(images/block2.jpg);
@@ -200,7 +190,7 @@
 }
 
 #figure img:hover {
-  background-color: black;;
+  background-color: black;
   color: white;
   box-shadow: 0 6px 15px black;
   transition: 0.5s;
@@ -213,12 +203,12 @@
   background-color: #F1FFFA;
   color: #1A2730;
   box-shadow: 0 0 15px black;
-
 }
+
 .block3 * {
   text-decoration: none;
   color: #1A2730;
-  font-family: 'Kalam', cursive;
+  font-family: 'Titillium Web', sans-serif;
 }
 
 .block3 div {
@@ -232,18 +222,199 @@
   font-size: 26px;
   letter-spacing: 0.1em;
   text-align: center;
-  margin-top: 60px;
-  margin-bottom: 50px;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding: 1.5em 0;
   color: #1A2730;
   border: 2px solid black;
+  border-radius: 10px;
+  width: 80%;
+  margin: 2em auto;
 }
 
-.block3 img {
+#life-style img {
   margin-top: 10px;
   margin-bottom: 10px;
   box-shadow: 0 3px 10px;
+}
+#sport img {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  box-shadow: 0 3px 10px;
+}
+#healthy-food img {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  box-shadow: 0 3px 10px;
+}
+
+.block3 a {
+  font-size: 25px;
+}
+
+footer {
+  display: flex;
+}
+
+/*---------------------BLOCK 1-----------------*/
+
+#block1 {
+  text-align: center;
+}
+
+#block1 h1 {
+  color: black;
+  font-family: 'Marck Script', cursive;
+  font-size: 3em;
+  letter-spacing: 3px;
+}
+
+/*
+#block1 button {
+  background-color: black;
+  color: white;
+  border-color: black;
+  border-radius: 10px;;
+  padding: 0.5em;
+  margin: 1em;
+  transition: 0.8s;
+}
+
+#block1 button:hover {
+  background-color: white;
+  color: black;
+  transition: 0.5s;
+}
+*/
+
+/*---------------------BLOCK 2-----------------*/
+
+#block2 {
+  display: flex;
+  width: 50%;
+  margin: 1.6em auto;
+}
+
+#socials {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 50%;
+  height: 10em;
+}
+
+#subscribe {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  height: 10em;
+}
+
+#subscribe input {
+  padding: 0.5em;
+  border-color: black;
+  border-radius: 10px;
+  transition: 0.8s;
+  font-family: 'Marck Script', cursive;
+  font-size: 20px;
+}
+
+#subscribe input:hover {
+  padding: 15px;
+}
+
+#subscribe button {
+  background-color: black;
+  color: white;
+  border-color: black;
+  border-radius: 10px;;
+  padding: 0.6em;
+  transition: 0.8s;
+  font-family: 'Marck Script', cursive;
+  font-size: 18px;
+
+}
+
+#subscribe button:hover {
+  background-color: white;
+  color: black;
+  transition: 0.5s;
+}
+
+.fa {
+  color: black;
+  transition: 0.8s;
+  transition-duration: 3.3s;
+}
+
+.fa-facebook:hover {
+  color: #3b5998;
+  transform: rotateY(360deg);
+  transition: 0.5s;
+  transition-duration: 3s;
+
+}
+.fa-twitter:hover {
+  color: #1da1f2;
+  transform: rotateY(360deg);
+  transition: 0.5s;
+  transition-duration: 3s;
+
+}
+
+.fa-snapchat-ghost:hover {
+  color: #fffc00;
+  transform: rotateY(360deg);
+  transition: 0.5s;
+  transition-duration: 3s;
+
+}
+
+.fa-youtube:hover {
+  color: #cd201f;
+  transform: rotateY(360deg);
+  transition: 0.5s;
+  transition-duration: 3s;
+}
+
+.fa-instagram:hover {
+  color: #e1306c;
+  transform: rotateY(360deg);
+  transition: 0.5s;
+  transition-duration: 3s;
+
+}
+
+.fa-pinterest-p:hover {
+  color: #bd081c;
+  transform: rotateY(360deg);
+  transition: 0.5s;
+  transition-duration: 3s;
+
+}
+
+/*---------------------BLOCK 3-----------------*/
+
+#block3 {
+  margin: 3.5em;
+}
+
+#block3 ul {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+#block3 a {
+  color: black;
+  font-size: 22px;
+  font-family: 'Marck Script', cursive;
+}
+
+#block3 a:hover {
+  text-decoration: none;
+  font-size: 26px;
 }
 
 
