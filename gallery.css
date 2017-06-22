@@ -169,11 +169,12 @@
   letter-spacing: 0.1em;
   color: white;
   font-family: 'Dosis', sans-serif;
-  text-align: center;
+  text-align: justify;
   line-height: 1.3em;
+  padding: 0 0.5em;
 }
 .interview-text1, .interview-text2 {
-  border-right: 2px solid white;
+  border-right: 1px solid grey;
 }
 
 .block2 {
